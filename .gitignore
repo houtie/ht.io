@@ -7,3 +7,4 @@ ht.io.VC.db
 *.tlog
 *.pdb
 *.idb
+source/imgui.ini

@@ -90,7 +90,7 @@
     <ClCompile>
       <WarningLevel>Level4</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..;$(SolutionDir)dependencies\imgui\examples\libs\glfw\include;$(SolutionDir)dependencies\imgui\examples\libs\gl3w;$(SolutionDir)dependencies\imgui\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..;$(SolutionDir)dependencies\imgui\examples\libs\glfw\include;$(SolutionDir)dependencies\imgui\examples\libs\gl3w;$(SolutionDir)dependencies\imgui\;$(SolutionDir)dependencies\imgui\examples\opengl3_example;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -155,10 +155,10 @@
   <ItemGroup>
     <ClCompile Include="..\dependencies\imgui\examples\libs\gl3w\GL\gl3w.c" />
     <ClCompile Include="..\dependencies\imgui\examples\opengl3_example\imgui_impl_glfw_gl3.cpp" />
-    <ClCompile Include="..\dependencies\imgui\examples\opengl3_example\main.cpp" />
     <ClCompile Include="..\dependencies\imgui\imgui.cpp" />
     <ClCompile Include="..\dependencies\imgui\imgui_demo.cpp" />
     <ClCompile Include="..\dependencies\imgui\imgui_draw.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\dependencies\imgui\examples\libs\gl3w\GL\gl3w.h" />
