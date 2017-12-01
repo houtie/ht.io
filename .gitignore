@@ -1,2 +1,9 @@
 
 ht.io.VC.db
+*.obj
+*.exe
+*.ilk
+*.log
+*.tlog
+*.pdb
+*.idb
